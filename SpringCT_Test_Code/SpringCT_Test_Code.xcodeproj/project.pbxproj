@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566592032BB16F7E00B22DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592022BB16F7E00B22DB1 /* AppDelegate.swift */; };
+		566592052BB16F7E00B22DB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592042BB16F7E00B22DB1 /* SceneDelegate.swift */; };
+		5665920A2BB16F7E00B22DB1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 566592092BB16F7E00B22DB1 /* Base */; };
+		5665920D2BB16F7E00B22DB1 /* SpringCT_Test_Code.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5665920B2BB16F7E00B22DB1 /* SpringCT_Test_Code.xcdatamodeld */; };
+		5665920F2BB16F8000B22DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5665920E2BB16F8000B22DB1 /* Assets.xcassets */; };
+		566592122BB16F8000B22DB1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 566592112BB16F8000B22DB1 /* Base */; };
+		5665921D2BB16F8000B22DB1 /* SpringCT_Test_CodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665921C2BB16F8000B22DB1 /* SpringCT_Test_CodeTests.swift */; };
+		566592272BB16F8000B22DB1 /* SpringCT_Test_CodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592262BB16F8000B22DB1 /* SpringCT_Test_CodeUITests.swift */; };
+		566592292BB16F8000B22DB1 /* SpringCT_Test_CodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592282BB16F8000B22DB1 /* SpringCT_Test_CodeUITestsLaunchTests.swift */; };
+		5665923F2BB175D400B22DB1 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665923E2BB175D400B22DB1 /* LoginController.swift */; };
+		566592402BB175D400B22DB1 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665923E2BB175D400B22DB1 /* LoginController.swift */; };
+		566592412BB175D400B22DB1 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665923E2BB175D400B22DB1 /* LoginController.swift */; };
+		566592442BB1772700B22DB1 /* CommonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592432BB1772700B22DB1 /* CommonFile.swift */; };
+		566592452BB1772700B22DB1 /* CommonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592432BB1772700B22DB1 /* CommonFile.swift */; };
+		566592462BB1772700B22DB1 /* CommonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592432BB1772700B22DB1 /* CommonFile.swift */; };
+		566592492BB1779D00B22DB1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592482BB1779D00B22DB1 /* LoginViewModel.swift */; };
+		5665924A2BB1779D00B22DB1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592482BB1779D00B22DB1 /* LoginViewModel.swift */; };
+		5665924B2BB1779D00B22DB1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592482BB1779D00B22DB1 /* LoginViewModel.swift */; };
+		5665924D2BB17A5900B22DB1 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665924C2BB17A5900B22DB1 /* Credentials.swift */; };
+		5665924E2BB17A5900B22DB1 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665924C2BB17A5900B22DB1 /* Credentials.swift */; };
+		5665924F2BB17A5900B22DB1 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665924C2BB17A5900B22DB1 /* Credentials.swift */; };
+		566592512BB17AB900B22DB1 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592502BB17AB900B22DB1 /* Observable.swift */; };
+		566592522BB17AB900B22DB1 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592502BB17AB900B22DB1 /* Observable.swift */; };
+		566592532BB17AB900B22DB1 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592502BB17AB900B22DB1 /* Observable.swift */; };
+		566592552BB17DDC00B22DB1 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592542BB17DDC00B22DB1 /* LoginManager.swift */; };
+		566592562BB17DDC00B22DB1 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592542BB17DDC00B22DB1 /* LoginManager.swift */; };
+		566592572BB17DDC00B22DB1 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592542BB17DDC00B22DB1 /* LoginManager.swift */; };
+		566592592BB17FF900B22DB1 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592582BB17FF900B22DB1 /* SplashScreenViewController.swift */; };
+		5665925A2BB17FF900B22DB1 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592582BB17FF900B22DB1 /* SplashScreenViewController.swift */; };
+		5665925B2BB17FF900B22DB1 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592582BB17FF900B22DB1 /* SplashScreenViewController.swift */; };
+		5665925D2BB180E100B22DB1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665925C2BB180E100B22DB1 /* HomeView.swift */; };
+		566592632BB18FFD00B22DB1 /* loginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592622BB18FFD00B22DB1 /* loginModel.swift */; };
+		566592682BB1944D00B22DB1 /* Employee_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592672BB1944C00B22DB1 /* Employee_Model.swift */; };
+		566592692BB1944D00B22DB1 /* Employee_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592672BB1944C00B22DB1 /* Employee_Model.swift */; };
+		5665926A2BB1944D00B22DB1 /* Employee_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592672BB1944C00B22DB1 /* Employee_Model.swift */; };
+		5665926C2BB1947200B22DB1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665926B2BB1947200B22DB1 /* HomeViewModel.swift */; };
+		5665926D2BB1947200B22DB1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665926B2BB1947200B22DB1 /* HomeViewModel.swift */; };
+		5665926E2BB1947200B22DB1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665926B2BB1947200B22DB1 /* HomeViewModel.swift */; };
+		566592702BB194A700B22DB1 /* AddEmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665926F2BB194A700B22DB1 /* AddEmployeeView.swift */; };
+		566592752BB194E900B22DB1 /* AddEmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592742BB194E900B22DB1 /* AddEmployeeViewModel.swift */; };
+		566592762BB194E900B22DB1 /* AddEmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592742BB194E900B22DB1 /* AddEmployeeViewModel.swift */; };
+		566592772BB194E900B22DB1 /* AddEmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592742BB194E900B22DB1 /* AddEmployeeViewModel.swift */; };
+		5665927E2BB19B7800B22DB1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665927D2BB19B7800B22DB1 /* CoreDataStack.swift */; };
+		5665927F2BB19B7800B22DB1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665927D2BB19B7800B22DB1 /* CoreDataStack.swift */; };
+		566592802BB19B7800B22DB1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665927D2BB19B7800B22DB1 /* CoreDataStack.swift */; };
+		566592822BB19BB800B22DB1 /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592812BB19BB800B22DB1 /* EntityManager.swift */; };
+		566592832BB19BB800B22DB1 /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592812BB19BB800B22DB1 /* EntityManager.swift */; };
+		566592842BB19BB800B22DB1 /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566592812BB19BB800B22DB1 /* EntityManager.swift */; };
+		566592902BB1BE3B00B22DB1 /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665928F2BB1BE3B00B22DB1 /* CommonFunction.swift */; };
+		566592912BB1BE3B00B22DB1 /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665928F2BB1BE3B00B22DB1 /* CommonFunction.swift */; };
+		566592922BB1BE3B00B22DB1 /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665928F2BB1BE3B00B22DB1 /* CommonFunction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		566592192BB16F8000B22DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 566591F72BB16F7E00B22DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566591FE2BB16F7E00B22DB1;
+			remoteInfo = SpringCT_Test_Code;
+		};
+		566592232BB16F8000B22DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 566591F72BB16F7E00B22DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566591FE2BB16F7E00B22DB1;
+			remoteInfo = SpringCT_Test_Code;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		566591FF2BB16F7E00B22DB1 /* SpringCT_Test_Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringCT_Test_Code.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		566592022BB16F7E00B22DB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		566592042BB16F7E00B22DB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		566592092BB16F7E00B22DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5665920C2BB16F7E00B22DB1 /* SpringCT_Test_Code.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpringCT_Test_Code.xcdatamodel; sourceTree = "<group>"; };
+		5665920E2BB16F8000B22DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		566592112BB16F8000B22DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		566592132BB16F8000B22DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566592182BB16F8000B22DB1 /* SpringCT_Test_CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringCT_Test_CodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5665921C2BB16F8000B22DB1 /* SpringCT_Test_CodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringCT_Test_CodeTests.swift; sourceTree = "<group>"; };
+		566592222BB16F8000B22DB1 /* SpringCT_Test_CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringCT_Test_CodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		566592262BB16F8000B22DB1 /* SpringCT_Test_CodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringCT_Test_CodeUITests.swift; sourceTree = "<group>"; };
+		566592282BB16F8000B22DB1 /* SpringCT_Test_CodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringCT_Test_CodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5665923E2BB175D400B22DB1 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		566592432BB1772700B22DB1 /* CommonFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFile.swift; sourceTree = "<group>"; };
+		566592482BB1779D00B22DB1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5665924C2BB17A5900B22DB1 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		566592502BB17AB900B22DB1 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		566592542BB17DDC00B22DB1 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		566592582BB17FF900B22DB1 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		5665925C2BB180E100B22DB1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		566592622BB18FFD00B22DB1 /* loginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginModel.swift; sourceTree = "<group>"; };
+		566592672BB1944C00B22DB1 /* Employee_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee_Model.swift; sourceTree = "<group>"; };
+		5665926B2BB1947200B22DB1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5665926F2BB194A700B22DB1 /* AddEmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeView.swift; sourceTree = "<group>"; };
+		566592742BB194E900B22DB1 /* AddEmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewModel.swift; sourceTree = "<group>"; };
+		5665927D2BB19B7800B22DB1 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		566592812BB19BB800B22DB1 /* EntityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityManager.swift; sourceTree = "<group>"; };
+		5665928F2BB1BE3B00B22DB1 /* CommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		566591FC2BB16F7E00B22DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566592152BB16F8000B22DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5665921F2BB16F8000B22DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		566591F62BB16F7E00B22DB1 = {
+			isa = PBXGroup;
+			children = (
+				566592012BB16F7E00B22DB1 /* SpringCT_Test_Code */,
+				5665921B2BB16F8000B22DB1 /* SpringCT_Test_CodeTests */,
+				566592252BB16F8000B22DB1 /* SpringCT_Test_CodeUITests */,
+				566592002BB16F7E00B22DB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		566592002BB16F7E00B22DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				566591FF2BB16F7E00B22DB1 /* SpringCT_Test_Code.app */,
+				566592182BB16F8000B22DB1 /* SpringCT_Test_CodeTests.xctest */,
+				566592222BB16F8000B22DB1 /* SpringCT_Test_CodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		566592012BB16F7E00B22DB1 /* SpringCT_Test_Code */ = {
+			isa = PBXGroup;
+			children = (
+				5665927C2BB19B5E00B22DB1 /* CoreData */,
+				566592732BB194B500B22DB1 /* Views */,
+				566592662BB1901300B22DB1 /* Models */,
+				566592612BB182FB00B22DB1 /* Observables */,
+				566592602BB182E200B22DB1 /* LoginManager */,
+				566592472BB1778500B22DB1 /* viewModels */,
+				566592422BB176F600B22DB1 /* Common */,
+				566592022BB16F7E00B22DB1 /* AppDelegate.swift */,
+				566592042BB16F7E00B22DB1 /* SceneDelegate.swift */,
+				566592352BB1749100B22DB1 /* ViewControllers */,
+				566592082BB16F7E00B22DB1 /* Main.storyboard */,
+				5665920E2BB16F8000B22DB1 /* Assets.xcassets */,
+				566592102BB16F8000B22DB1 /* LaunchScreen.storyboard */,
+				566592132BB16F8000B22DB1 /* Info.plist */,
+				5665920B2BB16F7E00B22DB1 /* SpringCT_Test_Code.xcdatamodeld */,
+			);
+			path = SpringCT_Test_Code;
+			sourceTree = "<group>";
+		};
+		5665921B2BB16F8000B22DB1 /* SpringCT_Test_CodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5665921C2BB16F8000B22DB1 /* SpringCT_Test_CodeTests.swift */,
+			);
+			path = SpringCT_Test_CodeTests;
+			sourceTree = "<group>";
+		};
+		566592252BB16F8000B22DB1 /* SpringCT_Test_CodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				566592262BB16F8000B22DB1 /* SpringCT_Test_CodeUITests.swift */,
+				566592282BB16F8000B22DB1 /* SpringCT_Test_CodeUITestsLaunchTests.swift */,
+			);
+			path = SpringCT_Test_CodeUITests;
+			sourceTree = "<group>";
+		};
+		566592352BB1749100B22DB1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5665923E2BB175D400B22DB1 /* LoginController.swift */,
+				566592582BB17FF900B22DB1 /* SplashScreenViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		566592422BB176F600B22DB1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				566592432BB1772700B22DB1 /* CommonFile.swift */,
+				5665924C2BB17A5900B22DB1 /* Credentials.swift */,
+				5665928F2BB1BE3B00B22DB1 /* CommonFunction.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		566592472BB1778500B22DB1 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				566592482BB1779D00B22DB1 /* LoginViewModel.swift */,
+				566592742BB194E900B22DB1 /* AddEmployeeViewModel.swift */,
+				5665926B2BB1947200B22DB1 /* HomeViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		566592602BB182E200B22DB1 /* LoginManager */ = {
+			isa = PBXGroup;
+			children = (
+				566592542BB17DDC00B22DB1 /* LoginManager.swift */,
+			);
+			path = LoginManager;
+			sourceTree = "<group>";
+		};
+		566592612BB182FB00B22DB1 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				566592502BB17AB900B22DB1 /* Observable.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		566592662BB1901300B22DB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				566592622BB18FFD00B22DB1 /* loginModel.swift */,
+				566592672BB1944C00B22DB1 /* Employee_Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		566592732BB194B500B22DB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5665925C2BB180E100B22DB1 /* HomeView.swift */,
+				5665926F2BB194A700B22DB1 /* AddEmployeeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5665927C2BB19B5E00B22DB1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5665927D2BB19B7800B22DB1 /* CoreDataStack.swift */,
+				566592812BB19BB800B22DB1 /* EntityManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		566591FE2BB16F7E00B22DB1 /* SpringCT_Test_Code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5665922C2BB16F8000B22DB1 /* Build configuration list for PBXNativeTarget "SpringCT_Test_Code" */;
+			buildPhases = (
+				566591FB2BB16F7E00B22DB1 /* Sources */,
+				566591FC2BB16F7E00B22DB1 /* Frameworks */,
+				566591FD2BB16F7E00B22DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpringCT_Test_Code;
+			productName = SpringCT_Test_Code;
+			productReference = 566591FF2BB16F7E00B22DB1 /* SpringCT_Test_Code.app */;
+			productType = "com.apple.product-type.application";
+		};
+		566592172BB16F8000B22DB1 /* SpringCT_Test_CodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5665922F2BB16F8000B22DB1 /* Build configuration list for PBXNativeTarget "SpringCT_Test_CodeTests" */;
+			buildPhases = (
+				566592142BB16F8000B22DB1 /* Sources */,
+				566592152BB16F8000B22DB1 /* Frameworks */,
+				566592162BB16F8000B22DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5665921A2BB16F8000B22DB1 /* PBXTargetDependency */,
+			);
+			name = SpringCT_Test_CodeTests;
+			productName = SpringCT_Test_CodeTests;
+			productReference = 566592182BB16F8000B22DB1 /* SpringCT_Test_CodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		566592212BB16F8000B22DB1 /* SpringCT_Test_CodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566592322BB16F8000B22DB1 /* Build configuration list for PBXNativeTarget "SpringCT_Test_CodeUITests" */;
+			buildPhases = (
+				5665921E2BB16F8000B22DB1 /* Sources */,
+				5665921F2BB16F8000B22DB1 /* Frameworks */,
+				566592202BB16F8000B22DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566592242BB16F8000B22DB1 /* PBXTargetDependency */,
+			);
+			name = SpringCT_Test_CodeUITests;
+			productName = SpringCT_Test_CodeUITests;
+			productReference = 566592222BB16F8000B22DB1 /* SpringCT_Test_CodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		566591F72BB16F7E00B22DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					566591FE2BB16F7E00B22DB1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					566592172BB16F8000B22DB1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 566591FE2BB16F7E00B22DB1;
+					};
+					566592212BB16F8000B22DB1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 566591FE2BB16F7E00B22DB1;
+					};
+				};
+			};
+			buildConfigurationList = 566591FA2BB16F7E00B22DB1 /* Build configuration list for PBXProject "SpringCT_Test_Code" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 566591F62BB16F7E00B22DB1;
+			productRefGroup = 566592002BB16F7E00B22DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				566591FE2BB16F7E00B22DB1 /* SpringCT_Test_Code */,
+				566592172BB16F8000B22DB1 /* SpringCT_Test_CodeTests */,
+				566592212BB16F8000B22DB1 /* SpringCT_Test_CodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		566591FD2BB16F7E00B22DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5665920F2BB16F8000B22DB1 /* Assets.xcassets in Resources */,
+				566592122BB16F8000B22DB1 /* Base in Resources */,
+				5665920A2BB16F7E00B22DB1 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566592162BB16F8000B22DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566592202BB16F8000B22DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		566591FB2BB16F7E00B22DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566592512BB17AB900B22DB1 /* Observable.swift in Sources */,
+				566592032BB16F7E00B22DB1 /* AppDelegate.swift in Sources */,
+				566592822BB19BB800B22DB1 /* EntityManager.swift in Sources */,
+				5665923F2BB175D400B22DB1 /* LoginController.swift in Sources */,
+				566592492BB1779D00B22DB1 /* LoginViewModel.swift in Sources */,
+				566592682BB1944D00B22DB1 /* Employee_Model.swift in Sources */,
+				566592902BB1BE3B00B22DB1 /* CommonFunction.swift in Sources */,
+				5665924D2BB17A5900B22DB1 /* Credentials.swift in Sources */,
+				566592632BB18FFD00B22DB1 /* loginModel.swift in Sources */,
+				566592552BB17DDC00B22DB1 /* LoginManager.swift in Sources */,
+				566592442BB1772700B22DB1 /* CommonFile.swift in Sources */,
+				5665926C2BB1947200B22DB1 /* HomeViewModel.swift in Sources */,
+				566592752BB194E900B22DB1 /* AddEmployeeViewModel.swift in Sources */,
+				5665925D2BB180E100B22DB1 /* HomeView.swift in Sources */,
+				5665927E2BB19B7800B22DB1 /* CoreDataStack.swift in Sources */,
+				566592702BB194A700B22DB1 /* AddEmployeeView.swift in Sources */,
+				5665920D2BB16F7E00B22DB1 /* SpringCT_Test_Code.xcdatamodeld in Sources */,
+				566592592BB17FF900B22DB1 /* SplashScreenViewController.swift in Sources */,
+				566592052BB16F7E00B22DB1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566592142BB16F8000B22DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5665924A2BB1779D00B22DB1 /* LoginViewModel.swift in Sources */,
+				5665926D2BB1947200B22DB1 /* HomeViewModel.swift in Sources */,
+				566592762BB194E900B22DB1 /* AddEmployeeViewModel.swift in Sources */,
+				5665921D2BB16F8000B22DB1 /* SpringCT_Test_CodeTests.swift in Sources */,
+				5665925A2BB17FF900B22DB1 /* SplashScreenViewController.swift in Sources */,
+				566592562BB17DDC00B22DB1 /* LoginManager.swift in Sources */,
+				5665927F2BB19B7800B22DB1 /* CoreDataStack.swift in Sources */,
+				5665924E2BB17A5900B22DB1 /* Credentials.swift in Sources */,
+				566592912BB1BE3B00B22DB1 /* CommonFunction.swift in Sources */,
+				566592832BB19BB800B22DB1 /* EntityManager.swift in Sources */,
+				566592692BB1944D00B22DB1 /* Employee_Model.swift in Sources */,
+				566592402BB175D400B22DB1 /* LoginController.swift in Sources */,
+				566592522BB17AB900B22DB1 /* Observable.swift in Sources */,
+				566592452BB1772700B22DB1 /* CommonFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5665921E2BB16F8000B22DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5665926A2BB1944D00B22DB1 /* Employee_Model.swift in Sources */,
+				5665924F2BB17A5900B22DB1 /* Credentials.swift in Sources */,
+				566592572BB17DDC00B22DB1 /* LoginManager.swift in Sources */,
+				5665925B2BB17FF900B22DB1 /* SplashScreenViewController.swift in Sources */,
+				566592462BB1772700B22DB1 /* CommonFile.swift in Sources */,
+				566592842BB19BB800B22DB1 /* EntityManager.swift in Sources */,
+				566592272BB16F8000B22DB1 /* SpringCT_Test_CodeUITests.swift in Sources */,
+				566592772BB194E900B22DB1 /* AddEmployeeViewModel.swift in Sources */,
+				566592802BB19B7800B22DB1 /* CoreDataStack.swift in Sources */,
+				5665926E2BB1947200B22DB1 /* HomeViewModel.swift in Sources */,
+				566592922BB1BE3B00B22DB1 /* CommonFunction.swift in Sources */,
+				566592532BB17AB900B22DB1 /* Observable.swift in Sources */,
+				566592412BB175D400B22DB1 /* LoginController.swift in Sources */,
+				5665924B2BB1779D00B22DB1 /* LoginViewModel.swift in Sources */,
+				566592292BB16F8000B22DB1 /* SpringCT_Test_CodeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5665921A2BB16F8000B22DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 566591FE2BB16F7E00B22DB1 /* SpringCT_Test_Code */;
+			targetProxy = 566592192BB16F8000B22DB1 /* PBXContainerItemProxy */;
+		};
+		566592242BB16F8000B22DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 566591FE2BB16F7E00B22DB1 /* SpringCT_Test_Code */;
+			targetProxy = 566592232BB16F8000B22DB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		566592082BB16F7E00B22DB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566592092BB16F7E00B22DB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		566592102BB16F8000B22DB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566592112BB16F8000B22DB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5665922A2BB16F8000B22DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5665922B2BB16F8000B22DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5665922D2BB16F8000B22DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6JZBG74Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpringCT_Test_Code/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kgp2ssindia.in.SpringCT-Test-Code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5665922E2BB16F8000B22DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6JZBG74Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpringCT_Test_Code/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kgp2ssindia.in.SpringCT-Test-Code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		566592302BB16F8000B22DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6JZBG74Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kgp2ssindia.in.SpringCT-Test-CodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringCT_Test_Code.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpringCT_Test_Code";
+			};
+			name = Debug;
+		};
+		566592312BB16F8000B22DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6JZBG74Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kgp2ssindia.in.SpringCT-Test-CodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringCT_Test_Code.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpringCT_Test_Code";
+			};
+			name = Release;
+		};
+		566592332BB16F8000B22DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6JZBG74Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kgp2ssindia.in.SpringCT-Test-CodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpringCT_Test_Code;
+			};
+			name = Debug;
+		};
+		566592342BB16F8000B22DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6JZBG74Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kgp2ssindia.in.SpringCT-Test-CodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpringCT_Test_Code;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		566591FA2BB16F7E00B22DB1 /* Build configuration list for PBXProject "SpringCT_Test_Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5665922A2BB16F8000B22DB1 /* Debug */,
+				5665922B2BB16F8000B22DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5665922C2BB16F8000B22DB1 /* Build configuration list for PBXNativeTarget "SpringCT_Test_Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5665922D2BB16F8000B22DB1 /* Debug */,
+				5665922E2BB16F8000B22DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5665922F2BB16F8000B22DB1 /* Build configuration list for PBXNativeTarget "SpringCT_Test_CodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566592302BB16F8000B22DB1 /* Debug */,
+				566592312BB16F8000B22DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566592322BB16F8000B22DB1 /* Build configuration list for PBXNativeTarget "SpringCT_Test_CodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566592332BB16F8000B22DB1 /* Debug */,
+				566592342BB16F8000B22DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5665920B2BB16F7E00B22DB1 /* SpringCT_Test_Code.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5665920C2BB16F7E00B22DB1 /* SpringCT_Test_Code.xcdatamodel */,
+			);
+			currentVersion = 5665920C2BB16F7E00B22DB1 /* SpringCT_Test_Code.xcdatamodel */;
+			path = SpringCT_Test_Code.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 566591F72BB16F7E00B22DB1 /* Project object */;
+}
